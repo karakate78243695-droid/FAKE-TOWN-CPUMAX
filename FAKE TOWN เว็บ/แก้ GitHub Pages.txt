@@ -1,0 +1,11 @@
+แก้ Error GitHub Pages: ไม่พบ /github/workspace/docs
+
+1. อัปโหลดโฟลเดอร์ docs ทั้งโฟลเดอร์เข้า root ของ repository FAKE-TOWN-
+   โครงสร้างต้องเป็น docs/index.html, docs/.nojekyll, docs/assets/logo.png, docs/assets/city.png
+2. Settings > Pages > Deploy from a branch > main > /docs > Save
+3. รอ Actions เสร็จ แล้วเปิด URL ที่ Settings > Pages แสดง
+
+ชุด docs เป็นหน้าเว็บชุมชนแบบ static สำหรับ GitHub Pages
+หน้าเว็บหลักและระบบหลังบ้านยังอยู่ใน src และ preview.mjs ตามเดิม
+ล็อกอิน Discord เครดิต ร้านค้า และเติมเงินต้องใช้โฮสต์ที่รันระบบหลังบ้าน
+ห้ามอัปโหลด .dev.vars หรือ Token ไป GitHub
